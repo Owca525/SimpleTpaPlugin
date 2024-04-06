@@ -1,5 +1,5 @@
 # SimpleTpaPlugin
-This is a simple Tpa plugin for minecraft servers.
+It's a simple Tpa plugin for minecraft servers.
 it uses Spigot API and only work on 1.20 or newer
 
 # How This Works
