@@ -1,0 +1,14 @@
+name: SimpleTpaPlugin
+version: '${version}'
+main: org.owcadev.tpaplugin.TpaPlugin
+api-version: '1.20'
+commands:
+  tpa:
+    description: tpa
+    usage: /tpa
+  tpaccept:
+    description: tpaccept
+    usage: /tpaccept
+  tpadeny:
+    description: tpadeny
+    usage: /tpadeny
