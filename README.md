@@ -6,7 +6,7 @@ This is a simple plugin for teleporting another user.
 # Jak tego używać?
 To teleport to a player, use the command `/tpa <PLAYER>`. To accept, use `/tpaccept <PLAYER>` (or use chat), and to deny, use `/tpadeny <PLAYER>`.
 
-# Komendy
+# Commands
 - `/tpa <PLAYER>`
 - `/tpacept <PLAYER>`
 - `/tpadeny <PLAYER>`
