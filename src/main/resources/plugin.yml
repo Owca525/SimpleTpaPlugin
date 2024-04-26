@@ -5,10 +5,13 @@ api-version: '1.20'
 commands:
   tpa:
     description: tpa
-    usage: /tpa
+    usage: /tpa <Player>
   tpaccept:
     description: tpaccept
-    usage: /tpaccept
+    usage: /tpaccept <Player>
   tpadeny:
     description: tpadeny
-    usage: /tpadeny
+    usage: /tpadeny <Player>
+  tpasetime:
+    description: tpasetime
+    usage: /tpasetime <Time>

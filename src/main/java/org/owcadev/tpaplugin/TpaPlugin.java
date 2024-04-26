@@ -150,6 +150,19 @@ public class TpaPlugin extends JavaPlugin implements Listener {
             }
             return true;
         }
-        return false;
+
+        if (player.hasPermission(player.getName()) && cmd.getName().equalsIgnoreCase("tpasetime")) {
+            int time = Integer.parseInt(args[0]);
+            player.sendMessage(ChatColor.GOLD + "Previously: " + timer + "." + " Now set up: " + time);
+            config.set("timer", time);
+            timer = time;
+            saveConfig();
+            player.sendMessage(ChatColor.GREEN + "Config Saved");
+            return true;
+        } else {
+            player.sendMessage(ChatColor.RED + "You don't have permision");
+        }
+
+        return true;
     }
 }
